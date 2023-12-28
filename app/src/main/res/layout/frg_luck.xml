@@ -8,14 +8,25 @@
     tools:context=".ui.luck.LuckFrg">
 
     <androidx.cardview.widget.CardView
+        app:cardBackgroundColor="@color/component"
         android:layout_marginTop="16dp"
+        android:layout_marginStart="16dp"
         app:cardCornerRadius="16dp"
-        android:layout_width="match_parent"
-        android:layout_marginHorizontal="16dp"
-        android:layout_height="50dp"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_width="250dp"
+        android:layout_height="70dp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginTop="16dp"
+            android:fontFamily="@font/roboto_medium"
+            android:textColor="@color/white"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            tools:text="Hey Masha" />
         
     </androidx.cardview.widget.CardView>
 
